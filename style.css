@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #553a17;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+
+#clock div {
+  display: inline;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px -10px #553a17;
+}
+
+body {
+  padding:0;
+  margin:0;
+  overflow:hidden;
+height: 600px;
+}
+canvas {
+  padding:0;
+  margin:0;
+}
+div.btnbg {
+  position:fixed;
+  left:0;
+  top:0;
+}
